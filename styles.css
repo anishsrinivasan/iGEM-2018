@@ -1,0 +1,419 @@
+/*Pre Quisites */
+
+#top_title {
+    display: none;
+	}
+	
+	#content {
+    width: 100%;
+    padding: 0px;
+    border: none;
+    color: black;
+    margin-left: 0;
+    margin-right: auto;
+    background-color: #ffffff;
+    position: relative;
+}
+
+
+
+
+/* Navbar */
+.navbar{
+	background-color:#000!important;
+	text-align: right;
+}
+
+.navbar-nav {
+    font-size: 16px;
+}
+
+.nav-link {
+	color:#ffffff!important;
+}
+
+.navbar-logo-img{
+	width:80px;
+}
+
+
+
+/* Inter Lab */
+
+.inter-lab-container {
+	padding:3%;
+	color:#000;
+}
+
+#HQ_page table {
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+#HQ_page th {
+    background-color: #212529;
+    padding: 12px;
+    color: #FFF;
+    border: 1px solid #dee2e6;
+    border-collapse: collapse;
+    vertical-align: top;
+}
+
+#HQ_page td {
+    font-size: 16px;
+    padding: .75rem;
+    border: 1px solid #dee2e6;
+    border-collapse: collapse;
+    vertical-align: text-top;
+}
+
+
+/* Default Styles */
+
+body{
+font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.text-small {
+font-size:0.8em
+}
+
+.text-medium {
+	font-size:1em;
+}
+
+.text-large{
+	font-size:1.5em;
+}
+
+.heading-text {
+font-size:2em;
+font-weight:bold;
+}
+
+.sub-heading-text {
+font-size:1.2em;
+font-weight:400;
+}
+
+.main-container {
+
+}
+
+.white {
+color:#fff;
+}
+
+.black {
+color:#000;
+}
+
+.white-bg {
+background-color:#f5f6fa!important;
+}
+
+.black-bg {
+background-color:#000!important;
+color:#fff;
+}
+
+.padding-none {
+	margin:0!important;
+	padding:0!important;
+}
+.section-container {
+padding:5%;
+}
+
+.header-cover-breadcrums {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+	color:#FFF;
+	padding:10% 5%;
+}
+
+.animated-button{color:#000;cursor:pointer;display:block;position:relative;border:2px solid #0BEF39;border-radius:25px;margin:15px auto 0;padding:14px 15px;font-size:14px;font-weight:700;text-align:center;text-decoration:none;text-transform:uppercase;overflow:hidden;letter-spacing:.08em;text-shadow:0 0 1px rgba(0,0,0,.2),0 1px 0 rgba(0,0,0,.2);transition:all 1s ease}.animated-button:hover{color:#000!important;background:#0BEF39!important;text-shadow:nthree}.animated-button:hover:before{left:0;right:auto;width:100%}.animated-button:before{display:block;position:absolute;top:0;right:0;height:100%;width:0;z-index:-1;content:'';color:#000!important;background:#0BEF39!important;transition:all .4s cubic-bezier(.42,0,.58,1)}
+
+
+/* Home Page */
+
+
+/* Header */
+
+.header-cover{
+    width:100%;
+    height:60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.header-text{
+    color:#ffffff;
+	text-align:center;
+}
+
+.fs-logo-img {
+    width: 250px;
+}
+/* Abstract */
+
+.abstract-box {
+padding:1% 5%;
+}
+
+/* Gallery */
+
+.gallery-container {
+
+}
+.gallery-box {
+}
+.gallery-box img  {
+	border: 5px solid #fff;
+    display: block;
+	width:100%;
+	
+
+}
+
+/* Our Team */
+
+.scrolling-wrapper-flexbox {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+.scrolling-wrapper-flexbox .card-profile {
+  flex: 0 0 auto;
+  margin:2%;
+}
+.scrolling-wrapper-flexbox {
+  -webkit-overflow-scrolling: touch;
+}
+.scrolling-wrapper-flexbox::-webkit-scrollbar {
+  display: none;
+}
+
+
+.card-profile img {
+	width:150px;
+}
+
+/* End of Home Page */
+
+
+
+/* Team Page */
+
+.card-container{
+padding:2%;
+
+}
+
+.card {
+	padding:2%;
+}
+
+.user-img{
+	width:200px;
+	height:200px;
+}
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+.card {
+  position: relative;
+  height: 30em;
+
+  perspective: 150em;
+  
+}
+
+.card-text{
+ font-size: 14;
+}
+.card__side {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30em;
+  backface-visibility: hidden;
+  transition: all 0.6s ease;
+  box-shadow: 1em 1em 2em rgba(0, 0, 0, .2);
+}
+.card__side--front {
+  background-color:#fff ;
+   transform: rotateY(0deg);
+}
+.card__side--back {
+  color: #fff;
+  transform: rotateY(180deg);
+}
+.card__side--back-1 {
+  background: #FF416C;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1F2833, #0B0C10);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1F2833, #0B0C10); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.card:hover .card__side--front {
+  transform: rotateY(-180deg);
+}
+.card:hover .card__side--back {
+  transform: rotate(0);
+}
+.card__description {
+     width: 100%;
+  padding: 1em 2em;
+  
+}
+.card__description svg {
+  width: 1.5em;
+  height: 1.5em;
+  fill: #fff;
+  
+  
+}
+
+/* Human Process */
+
+
+
+.public-engagement-item-container {	
+	padding:2%;
+}
+
+
+/* Collab */
+
+.collab-logo-img {
+	height:200px;
+}
+
+
+/* End of Team Page */
+
+
+.project-bg {
+	background-color:#131313;
+}
+/* Project Page */
+.project-main-container{
+	background-color:#131313;
+	max-width:1200px;
+	margin-left: auto;
+    margin-right: auto;
+	padding: 4% 0;
+}
+
+.project-container{
+	
+	position: relative;
+	background-color:#131313;
+}
+
+.absolute {
+	position:absolute;
+
+}
+
+.project-heading{
+	font-size:1.5em;
+	font-weight:bold;
+}
+
+.project-text-box {
+	color: white;
+    font-size: 14px;
+	width: 35%;
+	padding: 5%;
+}
+.mutagenesis{
+
+    top: 0px;
+    left: -30px; 
+   
+}
+
+.mutagenesis-img{
+top: 0px;
+ left: 460px;
+   
+}
+
+
+.need-mutagenesis{
+	width: 30%;
+    right: 0px;
+    top: 350px;
+    padding: 2%;
+}
+
+.need-mutagenesis-img{
+	width: 300px;
+    top: 350px;
+    left: 500px;
+}
+
+.why-new{
+    top: 500px;
+    left: -30px;
+	width:40%;
+
+}
+
+.why-new-img{
+  width: 460px;
+  top: 770px;
+  left: 400px;
+}
+
+.new-system{
+top: 830px;
+right: 0px;
+	width: 30%;
+	padding:2%;
+
+}
+
+.our-system-img{
+      width: 420px;
+    top: 1135px;
+    left: 364px;
+}
+
+
+.our-system{
+   top: 1135px;
+    left: -30px;
+	width:40%;
+
+}
+
+.change-img{
+    width: 300px;
+    top: 1500px;
+    left: 400px;
+}
+
+.mutations{
+top: 1500px;
+right: 0px;
+	width: 30%;
+	padding:2%;
+
+}
+
+/* End of Project Page */
