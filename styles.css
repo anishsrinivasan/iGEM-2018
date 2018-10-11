@@ -621,5 +621,11 @@ right: 0px;
     border-radius: 50%;
 }
 
+.timeline-summary {
+padding: 2%;
+border: 2px dotted #75EE8D;
+border-radius: 20px;	
+}
+
 
 /* Project */
