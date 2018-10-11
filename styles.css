@@ -615,10 +615,11 @@ right: 0px;
 }
 
 .timeline-img{
-	object-fit: cover;
+object-fit: cover;
     width: 200px;
     height: 200px;
     border-radius: 50%;
+	border: 10px solid #75EE8D;
 }
 
 .timeline-summary {
