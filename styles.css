@@ -465,7 +465,7 @@ right: 0px;
   width: 15px;
 }
 .timeline-marker:before {
-  background: #FF6B6B;
+  background:  #75EE8D;
   border: 3px solid transparent;
   border-radius: 100%;
   content: "";
@@ -480,7 +480,7 @@ right: 0px;
 .timeline-marker:after {
   content: "";
   width: 3px;
-  background: #CCD5DB;
+  background:  #75EE8D;
   display: block;
   position: absolute;
   top: 24px;
@@ -493,7 +493,7 @@ right: 0px;
 
 .timeline-item:not(.period):hover .timeline-marker:before {
   background: transparent;
-  border: 3px solid #FF6B6B;
+  border: 3px solid  #75EE8D;
 }
 
 /*----- TIMELINE CONTENT -----*/
@@ -521,8 +521,8 @@ right: 0px;
   top: 0;
   bottom: 30px;
   position: absolute;
-  border-top: 3px solid #CCD5DB;
-  border-bottom: 3px solid #CCD5DB;
+  border-top: 3px solid  #75EE8D;
+  border-bottom: 3px solid  #75EE8D;
 }
 .period .timeline-marker:after {
   content: "";
@@ -608,11 +608,18 @@ right: 0px;
 ----------------------------------------------*/
 .marker-outline .timeline-marker:before {
   background: transparent;
-  border-color: #FF6B6B;
+  border-color: #75EE8D;
 }
 .marker-outline .timeline-item:hover .timeline-marker:before {
-  background: #FF6B6B;
+  background: #75EE8D;
+}
+
+.timeline-img{
+	object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
 
 
-/* Notebook */
+/* Project */
