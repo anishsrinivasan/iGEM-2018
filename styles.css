@@ -624,7 +624,7 @@ object-fit: cover;
 
 .timeline-summary {
 padding: 2%;
-border: 2px dotted #75EE8D;
+border: 2px dashed #75EE8D;
 border-radius: 20px;	
 }
 
