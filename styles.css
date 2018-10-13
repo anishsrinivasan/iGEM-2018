@@ -99,11 +99,18 @@ font-weight:bold;
 
 .sub-heading-text {
 font-size:1.2em;
-font-weight:400;
+font-weight:500;
 }
 
 .main-container {
 
+}
+
+.span-red {
+	border-radius: 20px;
+    background-color: #d71d1d;
+    padding: 10px 2%;
+    color: #fff;
 }
 
 .white {
@@ -145,11 +152,22 @@ padding:5%;
 /* Home Page */
 
 
+.wrap {
+		background: black;
+	height: 100%;
+	perspective: 200px;
+	transform-style: preserve-3d;
+}
+
+.c {
+	position: absolute;
+}
+
 /* Header */
 
 .header-cover{
     width:100%;
-    height:60vh;
+    padding:10% 5%;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -157,6 +175,9 @@ padding:5%;
     justify-content: center;
 }
 
+.left-header {
+	border-right:2px solid;
+}
 
 .header-text{
     color:#ffffff;
@@ -207,7 +228,9 @@ padding:1% 5%;
 
 
 .card-profile img {
-	width:150px;
+	    width: 150px;
+    border: 5px solid #75EE8D;
+    border-radius: 50%;
 }
 
 /* End of Home Page */
@@ -312,16 +335,13 @@ background: linear-gradient(to right, #1F2833, #0B0C10); /* W3C, IE 10+/ Edge, F
 /* Project Page */
 .project-main-container{
 	background-color:#131313;
-	max-width:1200px;
-	margin-left: auto;
-    margin-right: auto;
-	padding: 4% 0;
+		padding:5%;
 }
 
 .project-container{
-	
-	position: relative;
 	background-color:#131313;
+
+
 }
 
 .absolute {
@@ -337,14 +357,13 @@ background: linear-gradient(to right, #1F2833, #0B0C10); /* W3C, IE 10+/ Edge, F
 .project-text-box {
 	color: white;
     font-size: 14px;
-	width: 35%;
-	padding: 5%;
+	padding: 3% 5%;
+	margin:0 auto;
+	
 }
-.mutagenesis{
 
-    top: 0px;
-    left: -30px; 
-   
+.project-text-container {
+text-align:center;
 }
 
 .mutagenesis-img{
@@ -354,25 +373,13 @@ top: 0px;
 }
 
 
-.need-mutagenesis{
-	width: 30%;
-    right: 0px;
-    top: 350px;
-    padding: 2%;
-}
-
 .need-mutagenesis-img{
 	width: 300px;
     top: 350px;
     left: 500px;
 }
 
-.why-new{
-    top: 500px;
-    left: -30px;
-	width:40%;
 
-}
 
 .why-new-img{
   width: 460px;
@@ -380,13 +387,7 @@ top: 0px;
   left: 400px;
 }
 
-.new-system{
-top: 830px;
-right: 0px;
-	width: 30%;
-	padding:2%;
 
-}
 
 .our-system-img{
       width: 420px;
@@ -395,12 +396,6 @@ right: 0px;
 }
 
 
-.our-system{
-   top: 1135px;
-    left: -30px;
-	width:40%;
-
-}
 
 .change-img{
     width: 300px;
@@ -408,13 +403,7 @@ right: 0px;
     left: 400px;
 }
 
-.mutations{
-top: 1500px;
-right: 0px;
-	width: 30%;
-	padding:2%;
 
-}
 
 /* End of Project Page */
 
@@ -615,7 +604,7 @@ right: 0px;
 }
 
 .timeline-img{
-object-fit: cover;
+	object-fit: cover;
     width: 200px;
     height: 200px;
     border-radius: 50%;
