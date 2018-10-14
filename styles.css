@@ -108,7 +108,7 @@ font-weight:500;
 
 .span-red {
 	border-radius: 20px;
-    background-color: #d71d1d;
+    background-color: #D21404;
     padding: 10px 2%;
     color: #fff;
 }
@@ -454,7 +454,7 @@ top: 0px;
   width: 15px;
 }
 .timeline-marker:before {
-  background:  #d71d1d;
+  background:  #D21404;
   border: 3px solid transparent;
   border-radius: 100%;
   content: "";
@@ -469,7 +469,7 @@ top: 0px;
 .timeline-marker:after {
   content: "";
   width: 3px;
-  background:  #d71d1d;
+  background:  #D21404;
   display: block;
   position: absolute;
   top: 24px;
@@ -482,7 +482,7 @@ top: 0px;
 
 .timeline-item:not(.period):hover .timeline-marker:before {
   background: transparent;
-  border: 3px solid  #d71d1d;
+  border: 3px solid  #D21404;
 }
 
 /*----- TIMELINE CONTENT -----*/
@@ -510,8 +510,8 @@ top: 0px;
   top: 0;
   bottom: 30px;
   position: absolute;
-  border-top: 3px solid  #d71d1d;
-  border-bottom: 3px solid  #d71d1d;
+  border-top: 3px solid  #D21404;
+  border-bottom: 3px solid  #D21404;
 }
 .period .timeline-marker:after {
   content: "";
@@ -597,10 +597,10 @@ top: 0px;
 ----------------------------------------------*/
 .marker-outline .timeline-marker:before {
   background: transparent;
-  border-color: #d71d1d;
+  border-color: #D21404;
 }
 .marker-outline .timeline-item:hover .timeline-marker:before {
-  background: #d71d1d;
+  background: #D21404;
 }
 
 .timeline-img{
@@ -608,17 +608,17 @@ top: 0px;
     width: 200px;
     height: 200px;
     border-radius: 50%;
-	border: 10px solid #d71d1d;
+	border: 10px solid #D21404;
 }
 
 .timeline-summary {
 padding: 2%;
-border: 5px dashed #d71d1d;
+border: 5px dashed #D21404;
 border-radius: 20px;	
 }
 
 .notebook-img{
-	    border: 5px solid #d71d1d;
+	    border: 5px solid #D21404;
     width: 300px;
     border-radius: 20px;
 }
