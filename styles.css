@@ -111,7 +111,6 @@ font-weight:500;
     background-color: #d71d1d;
     padding: 10px 2%;
     color: #fff;
-line-height: 2;
 }
 
 .white {
@@ -455,7 +454,7 @@ top: 0px;
   width: 15px;
 }
 .timeline-marker:before {
-  background:  #75EE8D;
+  background:  #d71d1d;
   border: 3px solid transparent;
   border-radius: 100%;
   content: "";
@@ -470,7 +469,7 @@ top: 0px;
 .timeline-marker:after {
   content: "";
   width: 3px;
-  background:  #75EE8D;
+  background:  #d71d1d;
   display: block;
   position: absolute;
   top: 24px;
@@ -483,7 +482,7 @@ top: 0px;
 
 .timeline-item:not(.period):hover .timeline-marker:before {
   background: transparent;
-  border: 3px solid  #75EE8D;
+  border: 3px solid  #d71d1d;
 }
 
 /*----- TIMELINE CONTENT -----*/
@@ -511,8 +510,8 @@ top: 0px;
   top: 0;
   bottom: 30px;
   position: absolute;
-  border-top: 3px solid  #75EE8D;
-  border-bottom: 3px solid  #75EE8D;
+  border-top: 3px solid  #d71d1d;
+  border-bottom: 3px solid  #d71d1d;
 }
 .period .timeline-marker:after {
   content: "";
@@ -598,10 +597,10 @@ top: 0px;
 ----------------------------------------------*/
 .marker-outline .timeline-marker:before {
   background: transparent;
-  border-color: #75EE8D;
+  border-color: #d71d1d;
 }
 .marker-outline .timeline-item:hover .timeline-marker:before {
-  background: #75EE8D;
+  background: #d71d1d;
 }
 
 .timeline-img{
@@ -609,14 +608,20 @@ top: 0px;
     width: 200px;
     height: 200px;
     border-radius: 50%;
-	border: 10px solid #75EE8D;
+	border: 10px solid #d71d1d;
 }
 
 .timeline-summary {
 padding: 2%;
-border: 5px dashed #75EE8D;
+border: 5px dashed #d71d1d;
 border-radius: 20px;	
 }
 
+.notebook-img{
+	    border: 5px solid #d71d1d;
+    width: 300px;
+    border-radius: 20px;
+}
 
-/* Project */
+
+/* Notebook */
